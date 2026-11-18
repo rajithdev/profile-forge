@@ -1,0 +1,89 @@
+{
+  "name": "Nova Reyes",
+  "github": "your-username",
+  "theme": "neon",
+
+  "taglines": [
+    "Full-stack developer · Open-source maintainer",
+    "Building Driftboard, a realtime planning board",
+    "TypeScript · Go · PostgreSQL"
+  ],
+  "status": "Building Driftboard",
+  "location": "Lisbon, PT · 38.72°N 9.14°W",
+
+  "links": [
+    { "label": "Website", "text": "nova.example", "url": "https://example.com" },
+    { "label": "LinkedIn", "text": "in/your-handle", "url": "https://www.linkedin.com/" },
+    { "label": "Email", "text": "hello@example.com", "url": "mailto:hello@example.com" }
+  ],
+
+  "about": {
+    "intro": "I build tools that make teams faster: realtime collaboration, developer tooling, and the boring infrastructure underneath.",
+    "rows": [
+      { "label": "Building", "value": "**Driftboard** — a realtime planning board for small teams" },
+      { "label": "Maintaining", "value": "[Pingfold](https://example.com) and a handful of smaller libraries" },
+      { "label": "Focus", "value": "**TypeScript**, **Go**, **PostgreSQL** and **WebSockets**" },
+      { "label": "Base", "value": "**Lisbon, Portugal**" }
+    ]
+  },
+
+  "featured": {
+    "name": "Driftboard",
+    "url": "https://example.com",
+    "summary": "A realtime planning board for small teams.",
+    "art": "orbit",
+    "lead": { "title": "Realtime boards", "text": "Every card, comment and cursor syncs the moment it changes" },
+    "features": [
+      { "icon": "bolt", "title": "Instant sync", "text": "Conflict-free edits over WebSockets" },
+      { "icon": "users", "title": "Presence", "text": "See who is looking at what, live" },
+      { "icon": "lock", "title": "Granular access", "text": "Per-board roles and share links" },
+      { "icon": "chart", "title": "Flow metrics", "text": "Cycle time and throughput built in" }
+    ],
+    "stack": ["TypeScript", "Go", "PostgreSQL", "WebSockets"],
+    "demo": "https://example.com",
+    "source": "https://github.com/your-username/driftboard"
+  },
+
+  "projects": [
+    {
+      "name": "Pingfold",
+      "tag": "Open source · MIT",
+      "description": "Share a local dev server over a secure tunnel with one command and no account.",
+      "stack": ["Go", "QUIC", "Docker"],
+      "url": "https://github.com/your-username/pingfold",
+      "demo": "https://example.com"
+    },
+    {
+      "name": "Mapleauth",
+      "tag": "Library",
+      "description": "Passwordless sign-in for Node apps: magic links, passkeys and sessions in one package.",
+      "stack": ["TypeScript", "WebAuthn", "Postgres"],
+      "url": "https://github.com/your-username/mapleauth"
+    },
+    {
+      "name": "Quillcache",
+      "tag": "Infrastructure",
+      "description": "A tiny read-through cache server with tag-based invalidation and a Redis-compatible API.",
+      "stack": ["Rust", "Tokio", "RESP"],
+      "url": "https://github.com/your-username/quillcache"
+    },
+    {
+      "name": "Tessera UI",
+      "tag": "Design system",
+      "description": "Accessible React components with a token-driven theme and zero runtime CSS.",
+      "stack": ["React", "TypeScript", "CSS"],
+      "url": "https://github.com/your-username/tessera-ui",
+      "demo": "https://example.com"
+    }
+  ],
+
+  "toolkit": [
+    "TypeScript", "Go", "Rust", "React",
+    "Node.js", "PostgreSQL", "Redis", "Docker"
+  ],
+
+  "activity": { "streak": false },
+
+  "footer": "Nova Reyes · Lisbon, PT",
+  "credit": true
+}

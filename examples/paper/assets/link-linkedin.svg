@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263 40" width="263" height="40" role="img" aria-label="LinkedIn: in/your-handle">
+  <defs><clipPath id="c"><rect width="263" height="40" rx="20"/></clipPath></defs>
+  <style>
+    .k { font: 700 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 1.8px; fill: #ffffff; }
+    .v { font: 500 13.5px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #1c1917; }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="263" height="40" fill="#fffdf8"/>
+    <rect width="97" height="40" fill="#7c3aed"/>
+  </g>
+  <rect x=".5" y=".5" width="262" height="39" rx="19.5" fill="none" stroke="#7c3aed" stroke-opacity=".5"/>
+  <text class="k" x="50.5" y="24" text-anchor="middle">LINKEDIN</text>
+  <text class="v" x="111" y="24.5">in/your-handle</text>
+  <path d="M236 25 l9 -9 m-7 0 h7 v7" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

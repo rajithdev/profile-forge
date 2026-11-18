@@ -1,0 +1,14 @@
+{
+  "name": "profile-forge",
+  "version": "1.0.0",
+  "description": "Animated GitHub profile README generator: edit one JSON file, get a self-hosted SVG profile.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "examples": "node scripts/examples.mjs",
+    "test": "node --test"
+  }
+}

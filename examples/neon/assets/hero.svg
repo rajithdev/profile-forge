@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Nova Reyes</title>
+  <desc id="d">Full-stack developer · Open-source maintainer. Building Driftboard. Lisbon, PT · 38.72°N 9.14°W</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/><stop offset=".55" stop-color="#090d1a"/><stop offset="1" stop-color="#0d0a1c"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/><stop offset=".55" stop-color="#a78bfa"/><stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0"/><stop offset=".3" stop-color="#67e8f9"/>
+      <stop offset=".7" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".55"/><stop offset=".45" stop-color="#67e8f9" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="scanFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0"/><stop offset=".8" stop-color="#67e8f9" stop-opacity=".055"/><stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="floorMask"><rect x="0" y="236" width="900" height="104" fill="url(#floorFade)"/></mask>
+    <clipPath id="frame"><rect width="900" height="340" rx="18"/></clipPath>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <style>
+    .hud { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 2.2px; fill: #8b98a9; }
+    .name { font: 800 78px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; letter-spacing: -2px; }
+    .line { font: 500 16px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #c9d4e3; opacity: 0; animation: cycle 10.5s linear infinite; }
+    @keyframes cycle { 0% { opacity: 0 } 2.67% { opacity: 1 } 30.67% { opacity: 1 } 33.33% { opacity: 0 } 100% { opacity: 0 } }
+    .cur { animation: blink 1s steps(2, jump-none) infinite; }
+    .star { fill: #cfe9ff; animation: twinkle 4s ease-in-out infinite; }
+    .row { animation: fly 1.6s linear infinite; }
+    .scan { animation: scan 7s linear infinite; }
+    .dot { animation: pulse 2s ease-in-out infinite; transform-origin: 38px 34px; }
+    @keyframes blink { 0% { opacity: 1 } 100% { opacity: 0 } }
+    @keyframes twinkle { 0%, 100% { opacity: .15 } 50% { opacity: .9 } }
+    @keyframes fly { to { transform: translateY(var(--d)); } }
+    @keyframes scan { from { transform: translateY(-90px) } to { transform: translateY(340px) } }
+    @keyframes pulse { 0%, 100% { opacity: .35; transform: scale(1) } 50% { opacity: 0; transform: scale(2.6) } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .first { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="340" fill="url(#bg)"/>
+    <circle class="star" cx="181.2" cy="182.4" r="1.18" style="animation-delay:-0.92s;animation-duration:3.33s"/><circle class="star" cx="362.7" cy="75.6" r="0.78" style="animation-delay:-3.84s;animation-duration:4.6s"/><circle class="star" cx="868" cy="205.8" r="0.41" style="animation-delay:-0.02s;animation-duration:4.63s"/><circle class="star" cx="76.2" cy="179.4" r="0.62" style="animation-delay:-0.39s;animation-duration:3.21s"/><circle class="star" cx="162.7" cy="164" r="1.18" style="animation-delay:-4.87s;animation-duration:3.84s"/><circle class="star" cx="621.1" cy="73.3" r="0.93" style="animation-delay:-4.49s;animation-duration:3.18s"/><circle class="star" cx="328.6" cy="62.7" r="1.11" style="animation-delay:-1.15s;animation-duration:2.74s"/><circle class="star" cx="149.5" cy="212" r="0.89" style="animation-delay:-1.58s;animation-duration:2.51s"/><circle class="star" cx="800.8" cy="110" r="0.43" style="animation-delay:-3.08s;animation-duration:4.64s"/><circle class="star" cx="704.8" cy="69.8" r="0.94" style="animation-delay:-2.44s;animation-duration:3.16s"/><circle class="star" cx="296.4" cy="68.8" r="0.71" style="animation-delay:-0.88s;animation-duration:4.89s"/><circle class="star" cx="203.5" cy="208.1" r="1.01" style="animation-delay:-2.25s;animation-duration:3.96s"/><circle class="star" cx="835.1" cy="109.3" r="1.2" style="animation-delay:-3.88s;animation-duration:3.02s"/><circle class="star" cx="78.6" cy="102.6" r="0.63" style="animation-delay:-4.77s;animation-duration:4.32s"/><circle class="star" cx="824.4" cy="76.9" r="0.96" style="animation-delay:-3.36s;animation-duration:4.04s"/><circle class="star" cx="778.3" cy="221.6" r="0.96" style="animation-delay:-1.63s;animation-duration:5.07s"/><circle class="star" cx="168.7" cy="183.8" r="1.17" style="animation-delay:-1.77s;animation-duration:4.26s"/><circle class="star" cx="63.5" cy="97.8" r="1.11" style="animation-delay:-4.15s;animation-duration:4.9s"/><circle class="star" cx="767.6" cy="209.4" r="1.06" style="animation-delay:-2.75s;animation-duration:4.98s"/><circle class="star" cx="739.6" cy="114.9" r="0.45" style="animation-delay:-0.84s;animation-duration:5.31s"/><circle class="star" cx="118.1" cy="126.4" r="0.52" style="animation-delay:-1.24s;animation-duration:4.29s"/><circle class="star" cx="782.2" cy="191.7" r="1.28" style="animation-delay:-1.85s;animation-duration:3.59s"/><circle class="star" cx="158.5" cy="172.3" r="0.89" style="animation-delay:-1.08s;animation-duration:2.79s"/><circle class="star" cx="804.4" cy="179.9" r="1.01" style="animation-delay:-3.94s;animation-duration:2.71s"/><circle class="star" cx="718.4" cy="75.6" r="0.82" style="animation-delay:-0.11s;animation-duration:3.61s"/><circle class="star" cx="108.5" cy="139.6" r="0.61" style="animation-delay:-0.44s;animation-duration:4.93s"/><circle class="star" cx="883.8" cy="127" r="0.46" style="animation-delay:-2.45s;animation-duration:3.61s"/><circle class="star" cx="739.1" cy="195.9" r="0.66" style="animation-delay:-3.6s;animation-duration:4.05s"/><circle class="star" cx="50" cy="106.8" r="1.05" style="animation-delay:-0.69s;animation-duration:4.17s"/><circle class="star" cx="237.5" cy="66.2" r="0.48" style="animation-delay:-3.3s;animation-duration:3.59s"/><circle class="star" cx="21.5" cy="72.8" r="0.42" style="animation-delay:-2.06s;animation-duration:2.82s"/><circle class="star" cx="489.9" cy="60.9" r="0.75" style="animation-delay:-2.32s;animation-duration:4.56s"/><circle class="star" cx="727.8" cy="222.6" r="0.68" style="animation-delay:-0.22s;animation-duration:3.9s"/><circle class="star" cx="762.2" cy="195" r="0.5" style="animation-delay:-1.73s;animation-duration:4.75s"/><circle class="star" cx="420.7" cy="83.5" r="0.88" style="animation-delay:-0.18s;animation-duration:3.14s"/><circle class="star" cx="803.1" cy="64.6" r="0.83" style="animation-delay:-1.88s;animation-duration:5.08s"/><circle class="star" cx="776.7" cy="216.8" r="0.45" style="animation-delay:-2.85s;animation-duration:5.01s"/><circle class="star" cx="813.3" cy="144.7" r="0.87" style="animation-delay:-3.65s;animation-duration:5.06s"/><circle class="star" cx="645.9" cy="223.4" r="0.94" style="animation-delay:-2.03s;animation-duration:5.12s"/><circle class="star" cx="888.8" cy="169.5" r="1.09" style="animation-delay:-3.37s;animation-duration:2.98s"/><circle class="star" cx="318.3" cy="63.3" r="0.61" style="animation-delay:-1.89s;animation-duration:4.21s"/><circle class="star" cx="613.6" cy="82.9" r="0.84" style="animation-delay:-4.17s;animation-duration:2.83s"/><circle class="star" cx="621.2" cy="75" r="1.17" style="animation-delay:-1.2s;animation-duration:3.64s"/><circle class="star" cx="45.3" cy="68" r="1.05" style="animation-delay:-3.55s;animation-duration:3.06s"/><circle class="star" cx="822.4" cy="214.4" r="1.22" style="animation-delay:-1.41s;animation-duration:3.69s"/><circle class="star" cx="751.1" cy="205.5" r="0.45" style="animation-delay:-0.7s;animation-duration:2.87s"/><circle class="star" cx="859.1" cy="195" r="0.78" style="animation-delay:-1.48s;animation-duration:4.99s"/><circle class="star" cx="102.6" cy="206.1" r="0.95" style="animation-delay:-0.95s;animation-duration:3.56s"/><circle class="star" cx="776.4" cy="81.8" r="0.59" style="animation-delay:-3.6s;animation-duration:3.24s"/>
+    <ellipse cx="450" cy="236" rx="420" ry="120" fill="url(#sun)"/>
+    <g mask="url(#floorMask)" stroke="#67e8f9" stroke-opacity=".38" stroke-width="1" fill="none">
+      <line x1="450" y1="236" x2="-1350" y2="340"/><line x1="450" y1="236" x2="-1260" y2="340"/><line x1="450" y1="236" x2="-1170" y2="340"/><line x1="450" y1="236" x2="-1080" y2="340"/><line x1="450" y1="236" x2="-990" y2="340"/><line x1="450" y1="236" x2="-900" y2="340"/><line x1="450" y1="236" x2="-810" y2="340"/><line x1="450" y1="236" x2="-720" y2="340"/><line x1="450" y1="236" x2="-630" y2="340"/><line x1="450" y1="236" x2="-540" y2="340"/><line x1="450" y1="236" x2="-450" y2="340"/><line x1="450" y1="236" x2="-360" y2="340"/><line x1="450" y1="236" x2="-270" y2="340"/><line x1="450" y1="236" x2="-180" y2="340"/><line x1="450" y1="236" x2="-90" y2="340"/><line x1="450" y1="236" x2="0" y2="340"/><line x1="450" y1="236" x2="90" y2="340"/><line x1="450" y1="236" x2="180" y2="340"/><line x1="450" y1="236" x2="270" y2="340"/><line x1="450" y1="236" x2="360" y2="340"/><line x1="450" y1="236" x2="450" y2="340"/><line x1="450" y1="236" x2="540" y2="340"/><line x1="450" y1="236" x2="630" y2="340"/><line x1="450" y1="236" x2="720" y2="340"/><line x1="450" y1="236" x2="810" y2="340"/><line x1="450" y1="236" x2="900" y2="340"/><line x1="450" y1="236" x2="990" y2="340"/><line x1="450" y1="236" x2="1080" y2="340"/><line x1="450" y1="236" x2="1170" y2="340"/><line x1="450" y1="236" x2="1260" y2="340"/><line x1="450" y1="236" x2="1350" y2="340"/><line x1="450" y1="236" x2="1440" y2="340"/><line x1="450" y1="236" x2="1530" y2="340"/><line x1="450" y1="236" x2="1620" y2="340"/><line x1="450" y1="236" x2="1710" y2="340"/><line x1="450" y1="236" x2="1800" y2="340"/><line x1="450" y1="236" x2="1890" y2="340"/><line x1="450" y1="236" x2="1980" y2="340"/><line x1="450" y1="236" x2="2070" y2="340"/><line x1="450" y1="236" x2="2160" y2="340"/><line x1="450" y1="236" x2="2250" y2="340"/>
+      <line class="row" style="--d:2px" x1="0" y1="240" x2="900" y2="240"/><line class="row" style="--d:3px" x1="0" y1="242" x2="900" y2="242"/><line class="row" style="--d:4.5px" x1="0" y1="245" x2="900" y2="245"/><line class="row" style="--d:6.75px" x1="0" y1="249.5" x2="900" y2="249.5"/><line class="row" style="--d:10.13px" x1="0" y1="256.25" x2="900" y2="256.25"/><line class="row" style="--d:15.19px" x1="0" y1="266.38" x2="900" y2="266.38"/><line class="row" style="--d:22.78px" x1="0" y1="281.56" x2="900" y2="281.56"/><line class="row" style="--d:34.17px" x1="0" y1="304.34" x2="900" y2="304.34"/>
+    </g>
+    <rect x="0" y="235.25" width="900" height="1.5" fill="url(#horizon)"/>
+    <rect class="scan" x="0" y="0" width="900" height="90" fill="url(#scanFill)"/>
+  </g>
+
+  <g fill="none" stroke="#67e8f9" stroke-opacity=".55" stroke-width="1.5">
+    <path d="M14 32 V14 H32"/><path d="M886 32 V14 H868"/><path d="M14 308 V326 H32"/><path d="M886 308 V326 H868"/>
+  </g>
+
+  <circle class="dot" cx="38" cy="34" r="4" fill="#34d399"/>
+  <circle cx="38" cy="34" r="3.5" fill="#34d399"/>
+  <text class="hud" x="50" y="38">BUILDING DRIFTBOARD</text>
+  <text class="hud" x="866" y="38" text-anchor="end">LISBON, PT · 38.72°N 9.14°W</text>
+
+  <text class="name" x="450" y="146" text-anchor="middle" fill="url(#ink)" filter="url(#glow)" opacity=".55">Nova Reyes</text>
+  <text class="name" x="450" y="146" text-anchor="middle" fill="url(#ink)">Nova Reyes</text>
+  <text class="line first" style="animation-delay:0s" x="450" y="196" text-anchor="middle"><tspan fill="#67e8f9">&gt; </tspan>Full-stack developer · Open-source maintainer<tspan class="cur" fill="#67e8f9"> ▍</tspan></text>
+  <text class="line" style="animation-delay:3.5s" x="450" y="196" text-anchor="middle"><tspan fill="#67e8f9">&gt; </tspan>Building Driftboard, a realtime planning board<tspan class="cur" fill="#67e8f9"> ▍</tspan></text>
+  <text class="line" style="animation-delay:7s" x="450" y="196" text-anchor="middle"><tspan fill="#67e8f9">&gt; </tspan>TypeScript · Go · PostgreSQL<tspan class="cur" fill="#67e8f9"> ▍</tspan></text>
+
+  <rect x=".5" y=".5" width="899" height="339" rx="17.5" fill="none" stroke="#94a3b8" stroke-opacity=".18"/>
+</svg>
