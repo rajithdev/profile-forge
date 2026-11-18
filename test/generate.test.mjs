@@ -161,4 +161,5 @@ test('the streak badge is opt-in and uses the theme colours', () => {
   const readme = generate({ ...sample, github: 'octocat', activity: { streak: true } })['README.md'];
   assert.match(readme, /streak-stats\.demolab\.com\?user=octocat&/);
   assert.match(readme, /ring=67E8F9/);
+  assert.match(readme, /stroke=262D37&/);
 });

@@ -73,12 +73,15 @@ export function renderReadme(cfg, assets) {
 
   if (cfg.streak) {
     const c = (hex) => hex.slice(1).toUpperCase();
+    // Blend two hex colours: the badge's rules and dates sit back from the text.
+    const mix = (a, b, w) => '#' + [1, 3, 5].map((i) =>
+      Math.round(parseInt(a.slice(i, i + 2), 16) * (1 - w) + parseInt(b.slice(i, i + 2), 16) * w).toString(16).padStart(2, '0')).join('');
     const t = cfg.theme;
     const query = [
       `user=${cfg.github}`, 'hide_border=true', 'border_radius=16',
-      `background=${c(t.panel)}`, `stroke=${c(t.line)}`, `ring=${c(t.a1)}`, `fire=${c(t.a2)}`,
+      `background=${c(t.panel)}`, `stroke=${c(mix(t.panel, t.line, 0.2))}`, `ring=${c(t.a1)}`, `fire=${c(t.a2)}`,
       `currStreakNum=${c(t.ink)}`, `sideNums=${c(t.ink)}`, `currStreakLabel=${c(t.a1)}`,
-      `sideLabels=${c(t.muted)}`, `dates=${c(t.muted)}`,
+      `sideLabels=${c(t.muted)}`, `dates=${c(mix(t.panel, t.muted, 0.6))}`,
     ].join('&');
     sections.push([
       heading(md(cfg.titles.activity)),
