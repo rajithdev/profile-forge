@@ -165,4 +165,4 @@ The generator is plain ES modules with no dependencies: `src/svg.mjs` draws the 
 
 ## Credits
 
-Started as the generator behind [rajithdev](https://github.com/rajithdev)'s profile, which is built with it. Released under the [MIT License](LICENSE).
+Started as the generator behind [rajithdev](https://github.com/rajithdev)'s profile, which used it until November 2026. Released under the [MIT License](LICENSE).
